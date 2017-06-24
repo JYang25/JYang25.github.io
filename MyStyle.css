@@ -1,0 +1,11 @@
+div.the_left{
+	position:relative;
+	left:20px;
+	float:left;
+	clear:both;
+}
+div.the_right{
+	position:relative;
+	left:200px;
+	float:left;
+}
