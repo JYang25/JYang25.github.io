@@ -4,6 +4,8 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
+
 div.logo {
 	text-align:center;
 	padding-top:10%;
@@ -13,12 +15,7 @@ img.logo {
 	width:4.2vw;
 	height:4.2vw;
 }
-img.me {
-	position:relative;
-	padding-top:40%;
-	width:14vw;
-/*	height:30%;  */
-}
+
 img.thelink {
 	width:3.17vw;
 }
@@ -51,7 +48,7 @@ ul.Middle {
 	display:block;
 	background-color:black;
 	list-style:none;
-	padding:2%;
+	padding:3%;
 	margin:auto;
 	overflow:ignore;
 }
@@ -77,13 +74,30 @@ div.the_left{
 	float:left;
 	clear:both;
 	padding-bottom:15%;   
+/*	border:white 1px solid;  */
 }
+
+img.me {
+	width:14vw;
+	position:relative;
+	padding-top:45%;  
+/*	height:30%;  */
+}
+
+p.theleft {
+	position:relative;
+	padding-top:20%;
+	font-size:1.6vw;
+	color:white;
+}
+
 div.the_right{
 	position:relative;
 	left:35%;
 	float:left;
-	width:500px;
+	width:500px; 
 	color:white;
+/*	border:white 1px solid;  */
 }
 h1.theright {
 	position:relative;
