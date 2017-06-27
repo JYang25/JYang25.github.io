@@ -6,14 +6,29 @@ body {
 }
 div.logo {
 	text-align:center;
-	padding-top:100px;
+	padding-top:10%;
 }
+
 img.logo {
-	width:4.5vw;
-	height:4.5vw;
+	width:4.2vw;
+	height:4.2vw;
 }
+img.me {
+	position:relative;
+	padding-top:40%;
+	width:14vw;
+/*	height:30%;  */
+}
+img.thelink {
+	width:3.17vw;
+}
+img.gplus {
+	width:3.28vw;
+}
+
+
 h1.top {
-	font-size:4.0vw;
+	font-size:3.8vw;
 	font-style:italic;
 	font-family:helvetica;
 }
@@ -25,7 +40,7 @@ div.Upper {
 	background-size:100%;
 	text-align:center;
 	color:white;
-	padding-top:6%;
+	padding-top:8%;
 	padding-bottom:6%;
 	line-height:100%;  
 	font-family:"Helvetica";
@@ -38,6 +53,7 @@ ul.Middle {
 	list-style:none;
 	padding:2%;
 	margin:auto;
+	overflow:ignore;
 }
 li.Middle {
 	color:white;
@@ -50,24 +66,39 @@ li.Middle {
 	position:relative;
 	left:20%;
 /*	border:white solid;  */
-
+	
 }
 
 div.the_left{
-	position:relative;
-	top:108px;
-	left:500px;
+	position:relative;  
+/*	top:108px;  */
+/*	left:500px;  */
+	left:25%;
 	float:left;
 	clear:both;
-	padding-bottom:200px;  
+	padding-bottom:15%;   
 }
 div.the_right{
 	position:relative;
-	top:80px;
-	left:650px;
+	left:35%;
 	float:left;
 	width:500px;
 	color:white;
+}
+h1.theright {
+	position:relative;
+	padding-top:15%;
+	font-size:1.6vw;
+}
+h3.theright {
+	font-size:1.1vw;
+}
+p.theright {
+	text-indent:2em;
+	font-size:1vw;
+}
+p.theright2 {
+	font-size:1vw;
 }
 
 a:link {
