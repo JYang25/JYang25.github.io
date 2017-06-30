@@ -1,8 +1,18 @@
 body {
-/*    background-image: url("picture/black-images-9.png");  */
-	background-color:black;
+/*	background-color:black;  */
+/*
     background-repeat: no-repeat;
     background-attachment: fixed;
+	background-size:cover;
+*/
+}
+
+div.bg {
+	background-image:url("picture/ocean1.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+/*	width:100%;  */
+/*	border:black solid;  */
 }
 
 
@@ -11,49 +21,46 @@ div.logo {
 	padding-top:10%;
 }
 
+
 img.logo {
 	width:4.2vw;
 	height:4.2vw;
 }
 
-img.thelink {
-	width:3.17vw;
-}
-img.gplus {
-	width:3.28vw;
-}
-
-
 h1.top {
-	font-size:3.8vw;
+	font-size:4vw;
 	font-style:italic;
 	font-family:helvetica;
 }
 
-div.Upper {
-/*	background-image:url("picture/website_background_by_modsoft-d3302jz.png");  */
-	background-image:url("picture/top_pic.jpg");
-	background-repeat:no-repeat;
-	background-size:100%;
+p.top {
+	font-size:1vw;
+	font-family:helvetica;
+}
+
+div.bg .Upper {
 	text-align:center;
-	color:white;
-	padding-top:8%;
-	padding-bottom:6%;
+	color:black;
+	padding-top:3%;
+	padding-bottom:5%;
 	line-height:100%;  
 	font-family:"Helvetica";
 }
 
-ul.Middle {
+/*ul.Middle {    */
+ul.Middle {  
 	height:12%;
 	display:block;
-	background-color:black;
+/*	background-color:black;  */
 	list-style:none;
 	padding:3%;
 	margin:auto;
 	overflow:ignore;
+	color:black;
+/*	border:black solid;   */
 }
 li.Middle {
-	color:white;
+	color:black;
 	font-size:1.5em;
 /*	width:220px;  */
 	width:14%;
@@ -66,61 +73,64 @@ li.Middle {
 	
 }
 
-div.the_left{
-	position:relative;  
-/*	top:108px;  */
-/*	left:500px;  */
+
+div.bg .the_left{
 	left:25%;
-	float:left;
 	clear:both;
 	padding-bottom:15%;   
-/*	border:white 1px solid;  */
+	
 }
+
 
 img.me {
 	width:14vw;
 	position:relative;
-	padding-top:45%;  
+	float:left;  
+	padding-top:7%;  
+	left:25%;
 /*	height:30%;  */
+/*	border: red solid;   */
+	
 }
 
-p.theleft {
+
+div.bg .the_right{
 	position:relative;
-	padding-top:20%;
-	font-size:1.6vw;
-	color:white;
+/*	float:left; */
+	clear:right;
+	top:40%;
+	left:40%;
+	width:40%; 
+	color:white; 
+/*	border:black solid;   */
+	padding-bottom:8%;
 }
 
-div.the_right{
-	position:relative;
-	left:35%;
-	float:left;
-	width:500px; 
-	color:white;
-/*	border:white 1px solid;  */
-}
 h1.theright {
-	position:relative;
 	padding-top:15%;
-	font-size:1.6vw;
+	font-size:1.6vw
+/*	border:yellow solid;  */
 }
 h3.theright {
+	left:35%;
 	font-size:1.1vw;
 }
 p.theright {
+	left:35%;
 	text-indent:2em;
 	font-size:1vw;
 }
 p.theright2 {
+	left:35%;
 	font-size:1vw;
 }
 
 a:link {
-	color:#FFFFFF;
+	color:black;
 	text-decoration:none;
 }    
 a:visited {
-	color:#FFFFFF;
+	color:black;
 	text-decoration:none;
 } 
 a:hover {
@@ -131,4 +141,173 @@ a:active {
 	color:purple;
 	text-decoration:underline;
 }  
+
+
+div.interval1 {
+	position:relative;
+	padding:5% 5% 5% 5%;
+	margin-bottom:5%;
+}
+
+div.interval1 .sub1 {
+	position:relative;
+	float:left;
+	left:17%;
+	padding-right:1%;
+	padding-bottom:5%;
+}
+
+div.interval1 .sub2 {
+	position:relative;
+	float:left;
+	left:17%; 
+	padding-right:1%;
+	padding-bottom:5%;
+}
+
+p.call {
+	font-size:0.9vw;
+}
+
+img.call {
+	width:4vw;
+}
+
+div.interval1 .sub3 {
+	position:relative;
+	float:left;
+	left:28%; 
+	padding-right:1%;
+	padding-bottom:5%;
+}
+
+div.interval1 .sub4 {
+	position:relative;
+	float:left;
+	left:28%; 
+	padding-right:1%;
+	padding-bottom:5%;
+}
+
+div.interval1 .sub5 {
+	position:relative;
+	float:left;
+	left:37%; 
+	padding-right:1%;
+	padding-bottom:5%;
+}
+
+div.interval1 .sub6 {
+	position:relative;
+	float:left;
+	left:37%; 
+	padding-right:1%;
+	padding-bottom:5%;
+	line-height:100%;  
+}
+
+img.thelink {
+	width:1.5vw;
+}
+
+
+div.about {
+	position:relative;
+	background-image:url("picture/HOJrhtq.jpg");
+	background-repeat:no-repeat;
+	background-size:100%;
+	padding-top:5%;
+	padding-bottom:15%;
+/*	border:red solid;  */
+	margin-bottom:5% 0% 5% 0%;
+}
+
+div.abouttext {
+    background:rgba(244,240,240,0.1);
+/*	border:white solid;  */
+	margin-left:60%;
+	width:30%;
+	padding:1.5%;
+}
+
+div.abouttext h1{
+	position:relative;
+	left:5%;  
+/*	padding-left:15%;  */
+	font-size:1.6vw;
+	color:white;  
+	letter-spacing:0.05vw;
+/*	border:white solid;  */
+}
+
+div.abouttext p{
+	position:relative;
+	left:5%;
+	color:white;  
+	text-indent:2em;
+	font-size:1vw;
+	width:85%;
+	letter-spacing:0.1vw;
+/*	border:black solid;  */
+/*	text-align:justify;  */
+}
+
+
+div.interval2 {
+	position:relative;
+	padding:5% 5% 5% 5%;
+	margin-bottom:5%;
+/*	border:black solid;  */
+}
+
+div.interval2 .sub7{
+	position:relative;
+	left:40%;
+	float:left;
+	padding-right:4%;
+	padding-bottom:5%;
+}
+div.interval2 .sub8{
+	position:relative;
+	left:40%;
+	float:left;
+	padding-right:4%;
+	padding-bottom:5%;
+}
+
+img.plogo {
+	width:8vw;
+}
+
+p.interval2 {
+	font-size:2vw;
+	line-height:100%;
+}
+
+/* section for project */
+
+div.project {
+	background-image:url("picture/ppt1.jpg"); 
+	background-repeat:no-repeat;
+	background-size:cover;
+	border:red solid;
+}
+
+div.project .signleProject {
+	position:relative;
+	float:left;
+	border:black solid;
+}
+
+img.circos {
+	width:8vw;
+	position:relative;
+	float:left;
+	left:10%;
+}
+
+
+
+
+
 
