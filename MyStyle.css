@@ -78,7 +78,6 @@ div.bg .the_left{
 	left:25%;
 	clear:both;
 	padding-bottom:15%;   
-	
 }
 
 
@@ -93,16 +92,15 @@ img.me {
 	
 }
 
-
 div.bg .the_right{
 	position:relative;
 /*	float:left; */
 	clear:right;
-	top:40%;
+	top:20%;
 	left:40%;
 	width:40%; 
 	color:white; 
-/*	border:black solid;   */
+/*	border:black solid;    */
 	padding-bottom:8%;
 }
 
@@ -125,23 +123,39 @@ p.theright2 {
 	font-size:1vw;
 }
 
-a:link {
+a.ex1:link {
 	color:black;
 	text-decoration:none;
 }    
-a:visited {
+a.ex1:visited {
 	color:black;
 	text-decoration:none;
 } 
-a:hover {
+a.ex1:hover {
 	color:blue;
 	text-decoration:underline;
 }   
-a:active {
+a.ex1:active {
 	color:purple;
 	text-decoration:underline;
 }  
 
+a.ex2:link {
+	color:white;
+	text-decoration:underline;
+}    
+
+a.ex2:visited {
+	color:white; 
+	text-decoration:underline;
+} 
+
+a.ex2:hover {
+	color:blue;
+}   
+a.ex2:active {
+	color:purple;
+}  
 
 div.interval1 {
 	position:relative;
@@ -217,9 +231,9 @@ div.about {
 	background-repeat:no-repeat;
 	background-size:100%;
 	padding-top:5%;
-	padding-bottom:15%;
+	padding-bottom:14%;
 /*	border:red solid;  */
-	margin-bottom:5% 0% 5% 0%;
+	margin:5% 0% 5% 0%;
 }
 
 div.abouttext {
@@ -255,8 +269,8 @@ div.abouttext p{
 
 div.interval2 {
 	position:relative;
-	padding:5% 5% 5% 5%;
-	margin-bottom:5%;
+	padding:3% 5% 3% 5%;
+	margin-bottom:10%;
 /*	border:black solid;  */
 }
 
@@ -287,27 +301,126 @@ p.interval2 {
 /* section for project */
 
 div.project {
-	background-image:url("picture/ppt1.jpg"); 
-	background-repeat:no-repeat;
-	background-size:cover;
-	border:red solid;
+/*	background-image:url("picture/ppt1.jpg");   */
+	padding-top:2%;
+	background-color:gray;
+/*	border:red solid;   */
 }
 
-div.project .signleProject {
+
+div.proj1 {
 	position:relative;
-	float:left;
-	border:black solid;
+	top:8%;
+	left:15%;
+	width:75%; 
+	color:white; 
+/*	border:black solid;    */
+	padding-bottom:8%;
 }
 
-img.circos {
-	width:8vw;
-	position:relative;
-	float:left;
+img.rf {
+	height:40vh;
+	width:30vw;
+	position:relative; 
+	float:left;  
+	padding-top:6%;  
 	left:10%;
+/*	border:yellow solid; */
+	clear:right;
 }
 
+h1.pj1 {
+	padding-top:6%;
+	font-size:1.6vw;
+/*	border:green solid; */
+	text-decoration:underline;
+}
 
+p.pj1 {
+	font-size:1vw;
+}
 
+ul.pj1{
+	padding-top:6%;
+	font-size:1.6vw;
+/*	border:green solid;   */
+}
 
+li.pj1 {
+	font-size:1vw;
+	line-height:1.5vw;
+	letter-spacing:0.05vw;
+	margin:2% 0% 2% 0%;
+}
 
+/* interval 3 */
+div.interval3 {
+	position:relative;
+	padding:6% 5% 5% 6%;
+	margin-bottom:0%;
+/*	border:black solid;  */
+}
 
+img.skill {
+	position:relative;
+	left:43%;
+	width:10vw;
+}
+
+/* skill section */
+div.skill {
+	position:relative;
+	left:10%;
+	width:90%;
+	padding-bottom:8%;
+/*	border:black solid; */
+}
+
+h1.prog {
+	font-size:1.4vw;
+	width:20%;  
+	padding:0.5% 1% 0.5% 1%;
+	color:white;
+	background-color:#00BB00;
+	border-radius:25px;
+/*	border: solid black; */
+}
+
+p.prog {
+	position:relative;
+	left:5%;
+/*	border:black solid; */
+	width:80%;
+}
+
+span.prog {
+	font-size:1vw;
+	padding:0.15% 0.3% 0.15% 0.3%;
+	color:white;
+	background-color:#6C6C6C;
+	border-radius:25px;
+/*	border: solid black; */
+}
+
+h1.sys {
+	font-size:1.4vw;
+	width:20%; 
+	padding:0.5% 1% 0.5% 1%;
+	color:white;
+	background-color:#0080FF;
+	border-radius:25px;
+/*	border: solid black; */
+}
+
+div.End {
+	background-color:#842B00;
+	padding:2% 5% 2% 5%;
+}
+
+p.End {
+	position:relative;
+	left:44%;
+	font-size:1vw;
+	color:white;
+	width:50%;
+}
