@@ -307,6 +307,9 @@ div.project {
 /*	border:red solid;   */
 }
 
+span.instruct {
+	font-size:1vw;
+}
 
 div.proj1 {
 	position:relative;
